@@ -12,7 +12,7 @@ Remove-Item
 cd "D:\home\site\temp"
 unzip -o -d D:\home\site\wwwroot\ deployment.zip
 
-# NPM
+# NPM and Grunt
 cd "D:\home\site\wwwroot"
 "Running npm install (production)"
 npm install --production --no-optional --no-bin-links

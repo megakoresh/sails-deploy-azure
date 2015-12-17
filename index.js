@@ -323,6 +323,7 @@ function zipSailsApp(inputs, exits) {
       path.resolve(appPath, '.sailsrc'),
       path.resolve(appPath, 'tasks'),
       path.resolve(appPath, 'package.json'),
+	  path.resolve(appPath, 'Gruntfile.js'),
       path.resolve(appPath, 'assets'),
       path.resolve(appPath, 'views'),
       path.resolve(appPath, 'config'),
